@@ -1,0 +1,1061 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F1F1F1;
+    ;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.flag{
+    height: 25px;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+nav {
+    padding-top: 15px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: /* rgba(229, 229, 229, 0.17); */  #EEEEEE;
+    z-index: 1;
+}
+
+nav h2{
+    display: inline-block;
+    background-color: #ceb0b2;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    font-size: 35px;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.left-info {
+    padding-top: 6px;
+    padding-bottom: 7px;
+    padding-left: 170px;
+    line-height: 1.5;
+}
+
+.right-info {
+    margin-right: 15%;
+}
+
+#title {
+    display: flex;
+    margin-left: 10px;
+}
+
+img.hand {
+    height: 58px;
+}
+
+.intro-text {
+    width: 50%;
+    padding: 90px 170px;
+    position: relative;
+    top: 100px;
+}
+
+h1 {
+    font-size: 47px;
+    width: 100%;
+}
+
+h1 span {
+    color: #ceb0b2;
+}
+
+.intro-text p {
+    margin: 20px 0;
+    font-weight: 550;
+    font-size: 17px;
+    width: 165%;
+}
+
+.cta a {
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 15px 30px;
+    margin: 50px 10px;
+    color: black;
+    font-size: 19px;
+}
+
+.cta {
+    margin: 40px 0;
+    position: relative;
+    top: 30px;
+}
+
+.white-button {
+    border: 3px solid black;
+}
+
+.pink-button {
+    background: #ceb0b2;
+}
+
+/*
+.social-media {
+    margin-top: 260px;
+}
+
+.social-media a {
+    margin: 17px;
+}
+
+.social-media a i {
+    font-size: 23px;
+    padding: 17px;
+    color: white;
+    background: black;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+}
+*/
+.social-media a {
+    color: white;
+}
+.social-media .button {
+    color: white;
+    margin-top: 160px;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    margin-right: 35px;
+    overflow: hidden;
+    background: black;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+}
+
+.social-media .button:hover {
+    width: 200px;
+    background-color: white;
+}
+
+
+.social-media .button .icon {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.social-media .button:nth-child(1):hover .icon {
+    background: #E1306C;
+}
+.social-media .button:nth-child(2):hover .icon {
+    background: #4267B2;
+}
+.social-media .button:nth-child(3):hover .icon {
+    background: #053EFF;
+}
+.social-media .button:nth-child(4):hover .icon {
+    background: #4267B2;
+}
+
+
+.social-media .button .icon i{
+    font-size: 20px;
+}
+
+.social-media .button span {
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-left: 10px;
+}
+
+
+.intro-img {
+    background: #ceb0b2;
+    height: 730px;
+    width: 581px;
+    display: flex;
+    position: relative;
+    top: 150px;
+    border-radius: 50px;
+    margin-left: 290px;
+}
+
+.intro-img img {
+    padding: 10px 0px 0px 42px;
+    border-radius: 50px;
+}
+
+#portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0E1725;
+    margin-top: 290px;
+    margin-left: 6%;
+    height: 960px;
+    width: 1700px;
+    border-radius: 50px;
+}
+
+#portfolio:hover {
+    background: linear-gradient(-45deg,  #0B1729, #16496F, #23D5AB);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 7s ease-in-out infinite;
+    transition: 0.3s;
+
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.portfolio-content h2 {
+    margin: 300px 570px;
+    color: #ceb0b2;
+}
+
+.portfolio-content img {
+    margin: 0px 620px;
+    height: 210px;
+    position: relative;
+    top: -260px;
+}
+
+#about {
+    padding-top: 200px;
+    padding-bottom: 300px;
+    top: 100px;
+    margin-left: 200px;
+}
+
+.about-text h1 {
+    font-size: 40px;
+    color: #0E1725;
+    margin-bottom: 12px;
+}
+
+.about-text p {
+    color: black;
+    font-size: 17px;
+    width: 95%;
+    font-weight: 600;
+}
+
+.hard-skills h2 {
+    font-size: 27px;
+    color: #0E1725;
+}
+
+.soft-skills h2 {
+    font-size: 27px;
+    color: #0E1725;
+
+}
+.group-1 th {
+    color: black;
+    background: #ceb0b2;
+    margin: 0 20px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 4px solid #ceb0b2;
+    font-size: 18px;
+}
+
+.group-1 table {
+    margin: 20px 0;
+    height: 20px;
+    width: 500px;
+    display: flex;
+}
+.group-2 table {
+    padding-top: 10px;
+}
+
+.soft-skills {
+    position: relative;
+    top: 50px;
+}
+
+.group-2 th {
+    color: black;
+    background: #ceb0b2;
+    margin: 0 20px;
+    padding: 14px;
+    border-radius: 10px;
+    border: 4px solid #ceb0b2;
+    font-size: 18px;
+}
+
+.group-2 {
+    margin: 20px 0;
+    height: 20px;
+    width: 800px;
+    display: flex;
+}
+
+.contact-me-text {
+    background-color: #0e1725;
+    background-image: radial-gradient(circle farthest-corner at 50% 180%, #7C6A6B, #0e1725 60%);
+    height: 1100px;
+}
+
+.contact-me-text h1 {
+    font-size: 50px;
+    color: white;
+    padding: 50px 730px;
+    padding-top: 130px;
+    width: 119%;
+    margin-left: 0%;
+}
+
+.contact-me-text p{
+    color: white;
+    font-weight: 500;
+    margin-left: 630px;
+    margin-top: -20px;
+}
+
+/*
+div.cursors div {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 32px;
+    height: 32px;
+    background-color: #E7E6E6;
+    border-radius: 50%;
+    z-index: 10000;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+*/
+
+.right-info a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.cta a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 60px;
+    margin-left: 5%;
+}
+
+.contact-form input {
+    color: white;
+    background-color: #1f2029;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px;
+    width: 63em;
+    height: 20px;
+}
+
+.contact-form textarea {
+    color: white;
+    background-color: #1f2029;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px;
+    width: 63em;
+    height: 15em;
+}
+
+.contact-form button {
+    color: white;
+    background-color: #1f2029;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5vw;
+}
+html::-webkit-scrollbar-thumb {
+    background-color: #3F4042;
+}
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+}
+html::-webkit-scrollbar-track {
+    background-color: #F1F1F1;
+}
+
+
+/* For Desktop View*/
+@media screen and (min-width: 1024px) {
+
+
+}
+
+/*Mobile Phones*/
+@media screen and (max-width: 425px) {
+    nav{
+    justify-content:inherit;
+    padding-top: 1px;
+    width: 140%;
+    }
+    nav a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav h2{
+        width: 40px;
+        height: 40px;
+        font-size: 26px;
+        margin-top: 8px;
+    }
+    .flag{
+        height: 30px;
+    }
+    .right-info{
+        margin-left: 10px;
+    }
+    .left-info{
+        padding-left: 10px;
+        padding-bottom: 9px;
+        margin-top: -5px;
+    }
+    #title{
+        display: block;
+        margin-top: 10px;
+        margin-left: 7%;
+    }
+    img.hand {
+        height: 37px;
+    }
+    h1{
+        font-size: 25px;
+        width: 97%;
+    }
+    .intro-text p{
+        font-size: 12px;
+        width: 91%;
+    }
+    html,body {
+        height:100%;
+        min-height:100%;
+        max-height:100%;
+        overflow-x: hidden;
+    }
+    .intro-text{
+        width: 100%;
+        padding: 0;
+    }
+    .intro-img{
+        margin-left: 1%;
+        margin-top: 3px;
+        width: 302px;
+        height: 358px;
+    }
+    .social-media .button{
+        margin-top: 50px;
+        height: 30px;
+        width: 30px;
+        margin-right: 23px;
+    }
+    .social-media .icon{
+        height: 48px;
+        width: 48px;
+    }
+    .social-media .button .icon {
+        line-height: 0px;
+    }
+    .social-media .button .icon i{
+        font-size: 15px;
+        margin-right: 15px;
+        margin-top: 8px;
+    }
+    #portfolio{
+        margin-left: 5%;
+        width: 90%;
+        margin-top: 270px;
+        height: 400px;
+    }
+    .portfolio-content h2{
+        font-size: 16px;
+        margin-top: 35%;
+        width: 24%;
+        margin-left: 38%;
+    }
+    .portfolio-content img{
+        height: 122px;
+        margin-top: -7px;
+        margin-left: 40%;
+        margin-right: 0px;
+    }
+    .cta a{
+        font-size: 14px;
+        padding: 13px 20px;
+    }
+    .cta{
+        margin-top: 27px;
+    }
+    #about{
+        display: block;
+        width: 100%;
+        margin-left: 7%;
+        padding-top: 104px;
+    }
+    .about-text h1{
+        width: 86%;
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .about-text p{
+        width: 79%;
+        font-size: 12px;
+    }
+    .soft-skills {
+        top: 15px;
+    }
+    .hard-skills h2{
+        font-size: 20px;
+    }
+    .soft-skills h2{
+        font-size: 20px;
+    }
+    .group-1 {
+        margin-top: 11px;
+    }
+    .group-1 table {
+        margin: 0px;
+    }
+    .group-2 {
+        display: block;
+        width: 82%;
+        margin-top: 3px;
+    }
+    .group-1 th{
+        font-size: 13px;
+        padding: 4px;
+    }
+    .group-2 th{
+        font-size: 13px;
+        padding: 4px;
+    }
+    .contact-me-text{
+        width: 100%;
+        height: 693px;
+        background-image: radial-gradient(circle farthest-corner at 55% 138%, #7C6A6B, #0e1725 49%);
+        margin-top: -103px;
+    }
+    .contact-me-text h1{
+        padding: 50px;
+        padding-left: 14%;
+        font-size: 25px;
+        width: 100%;
+
+    }
+    .contact-me-text p{
+        margin-left: 7%;
+        width: 89%;
+        margin-top: -30px;
+        font-size: 12px;
+        margin-bottom: -20px;
+    }
+    .contact-form{
+        display: block;
+        padding-left: 5%;
+        font-size: 10px;
+    }
+    .contact-form input{
+        font-size: 8px;
+        padding: 13px;
+        width: 92%;
+        padding-left: 8px;
+    }
+    .contact-form textarea{
+        font-size: 8px;
+        width: 92%;
+        padding: 10px;
+    }
+    .contact-form button{
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+
+
+/*Tablets*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    nav{
+    justify-content:inherit;
+    margin-left: 0%;
+    }
+    nav a{
+        font-size: 16px;
+        padding-right: 19px;
+    }
+    nav h2{
+        width: 60px;
+        height: 60px;
+        font-size: 39px;
+        margin-top: 0px;
+        margin-left: 27px;
+    }
+    .flag{
+        height: 35px;
+        margin-left: 10px;
+    }
+    .right-info{
+        margin-left: 17%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .left-info{
+        padding-left: 1px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #title{
+        display: block;
+        width: 200%;
+        margin-top: 9%;
+        margin-left: 8%;
+    }
+    .intro-text img {
+        height: 50px;
+
+    }
+    img.hand {
+        height: 56px;
+    }
+    h1{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .intro-text p{
+        font-size: 17px;
+        width: 43%;
+        margin-top: 1%;
+    }
+    html,body {
+        height:100%;
+        min-height:100%;
+        max-height:100%;
+    }
+    .intro-text{
+        width: 100%;
+        padding: 0;
+    }
+    .intro-img{
+        margin-left: 7%;
+        height: 535px;
+        width: 435px;
+        margin-top: 3%;
+    }
+    .social-media .button{
+        margin-top: 63px;
+        height: 42px;
+        width: 42px;
+        padding: 0px;
+        margin-right: 24px;
+        margin-bottom: 0px;
+    }
+    .social-media .button .icon i{
+        font-size: 20px;
+        margin-right: 5px;
+        margin-top: 12px;
+    }
+    .social-media .button .icon {
+        line-height: 0px;
+    }
+    #portfolio{
+        margin-left: 4%;
+        width: 92%;
+        margin-top: 351px;
+        height: 540px;
+    }
+    .portfolio-content {
+        width: 100%;
+    }
+    .portfolio-content h2{
+        font-size: 26px;
+        margin-top: 37%;
+        width: 37%;
+        margin-left: 32%;
+    }
+    .portfolio-content img{
+        height: 177px;
+        margin-top: 1%;
+        margin-left: 37%;
+    }
+    .cta a{
+        font-size: 17px;
+        padding: 17px 21px;
+        margin: 50px 15px;
+        border-radius: 16px;
+    }
+    .cta {
+        margin: 40px 0;
+    }
+    #about{
+        display: block;
+        width: 700px;
+        margin-left: 70px;
+        padding-top: 108px;
+    }
+    .about-text h1{
+        width: 300%;
+        font-size: 35px;
+    }
+    .about-text p{
+        width: 91%;
+        font-size: 17px;
+        margin-top: 15px;
+    }
+    .hard-skills {
+        margin-top: 17px;
+    }
+    .soft-skills {
+        margin-top: -100px;
+    }
+    .hard-skills h2{
+        font-size: 25px;
+    }
+    .soft-skills h2{
+        font-size: 25px;
+        margin-top: 11%;
+    }
+    .group-1 th{
+        font-size: 17px;
+        padding: 9px;
+    }
+    .group-2 th{
+        font-size: 17px;
+        margin-top: 8px;
+    }
+    .group-1 {
+        margin-top: 0px;
+    }
+    .group-2 {
+        margin-top: 11px;
+        display: block;
+    }
+    .contact-me-text{
+        width: 100%;
+        height: 973px;
+        background-image: radial-gradient(circle farthest-corner at 17% 200%, #7C6A6B, #0e1725 71%);
+    }
+    .contact-me-text h1{
+        padding: 103px;
+        padding-left: 26%;
+        font-size: 37px;
+        padding-top: 7%;
+    }
+    .contact-me-text p{
+        margin-left: 14%;
+        width: 75%;
+        margin-top: -62px;
+        font-size: 15px;
+    }
+    .contact-form{
+        display: block;
+        padding-left: 5%;
+        font-size: 15px;
+    }
+    .contact-form input{
+        font-size: 13px;
+        width: 85%;
+        height: 40px;
+    }
+    .contact-form textarea{
+        font-size: 13px;
+        width: 48em;
+    }
+    .contact-form button{
+        font-size: 15px;
+        width: 88px;
+        height: 66px;
+    }
+}
+
+
+/*IPad Pro and Laptop*/
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    nav{
+    justify-content:inherit;
+    padding-top: 2px;
+    margin-left: 0;
+    }
+    nav a{
+        font-size: 15px;
+        padding-right: 35px;
+    }
+    nav h2{
+        width: 55px;
+        height: 55px;
+        font-size: 36px;
+    }
+    .flag{
+        height: 47px;
+        margin-left: 20px;
+    }
+    .right-info{
+        margin-left: 25%;
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+    .left-info{
+        margin-left: 3%;
+        margin-top: 5px;
+        padding-bottom: 11px;
+    }
+    #title{
+        display: block;
+        width: 100%;
+        margin-top: 78px;
+        margin-left: 8%;
+    }
+    img.hand {
+        height: 50px;
+    }
+    h1{
+        font-size: 37px;
+    }
+    .intro-text p{
+        font-size: 16px;
+        width: 80%;
+        margin-top: 24px;
+    }
+    html,body {
+        height:100%;
+        min-height:100%;
+        max-height:100%;
+        overflow-x: hidden;
+    }
+    .intro-text{
+        width: 100%;
+        padding: 0;
+    }
+    .intro-img{
+        margin-left: 20%;
+        height: 571px;
+        width: 463px;
+        margin-top: 3%;
+    }
+    .social-media .button{
+        margin-top: 90px;
+        height: 40px;
+        width: 40px;
+        margin-right: 30px;
+        padding: 0px;
+    }
+    .social-media .icon{
+        height: 48px;
+        width: 48px;
+    }
+    .social-media .button .icon i{
+        font-size: 19px;
+        margin-top: 5px;
+    }
+    .social-media .button .icon {
+        line-height: 0px;
+        margin-top: 5px;
+    }
+    #portfolio{
+        margin-left: 4%;
+        width: 92%;
+        margin-top: 330px;
+        height: 670px;
+    }
+    .portfolio-content h2{
+        font-size: 25px;
+        margin-top: 13%;
+        width: 55%;
+        margin-left: 24%;
+    }
+    .portfolio-content img{
+        height: 190px;
+        margin-top: 31px;
+    }
+    .cta {
+        margin: 34px 0;
+    }
+    .cta a{
+        font-size: 18px;
+        padding: 16px 29px;
+        margin: 50px 15px;
+        border-radius: 17px;
+    }
+    #about{
+        display: block;
+        width: 700px;
+        margin-left: 6%;
+        margin-top: -77px;
+    }
+    .about-text h1{
+        width: 400%;
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+    .about-text p{
+        width: 130%;
+        font-size: 16px;
+    }
+    .hard-skills {
+        margin-top: 0px;
+    }
+    .soft-skills {
+        margin-top: -27px;
+    }
+    .hard-skills h2{
+        font-size: 26px;
+        width: 100%;
+    }
+    .soft-skills h2{
+        font-size: 26px;
+        width: 100%;
+        margin-top: 14px;
+    }
+    .group-1 {
+        margin-top: 17px;
+    }
+    .group-2 {
+        margin-top: 17px;
+    }
+    .group-1 th{
+        font-size: 16px;
+    }
+    .group-2 th{
+        font-size: 16px;
+        padding: 11px;
+    }
+    .contact-me-text{
+    width: 100%;
+    height: 1026px;
+    background-image: radial-gradient(circle farthest-corner at 17% 200%, #7C6A6B, #0e1725 78%);
+    margin-top: -64px;
+    }
+    .contact-me-text h1{
+        padding: 100px;
+        padding-left: 33%;
+        font-size: 32px;
+    }
+    .contact-me-text p{
+        margin-left: 19%;
+        width: 83%;
+        margin-top: -63px;
+        font-size: 16px;
+    }
+    .contact-form{
+        display: block;
+        padding-left: 7%;
+        font-size: 14px;
+        margin-top: 6%;
+    }
+    .contact-form input{
+        font-size: 12px;
+        width: 91%;
+        height: 50px;
+    }
+    .contact-form textarea{
+        font-size: 12px;
+        width: 63em;
+    }
+    .contact-form button{
+        font-size: 14px;
+        width: 76px;
+        height: 55px;
+        padding: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+For Mobile Phones and Tablets
+@media screen and (max-width: 1024px) {
+   .left-info{
+       padding-left: 15px;
+   }
+   .right-info{
+       font-size: 25px;
+       padding-right: 50%;;
+   }
+   .intro-img{
+       margin-top: 900px;
+       height: 900px;
+       width: 700px;
+   }
+   .nav{
+       position:fixed;
+   }
+    
+}
+*/
+
