@@ -829,7 +829,7 @@ html::-webkit-scrollbar-track {
 
 /*IPad Pro and Laptop*/
 
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
     nav{
     justify-content:inherit;
     padding-top: 2px;
