@@ -422,6 +422,7 @@ div.cursors div {
     font-size: 17px;
     font-weight: 600;
     padding: 20px;
+    decoration-text: none;
 }
 
 html::-webkit-scrollbar {
