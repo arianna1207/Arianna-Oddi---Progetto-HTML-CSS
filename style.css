@@ -416,7 +416,7 @@ div.cursors div {
     height: 15em;
 }
 
-.contact-form button {
+.contact-form .button {
     color: white;
     background-color: #1f2029;
     font-size: 17px;
