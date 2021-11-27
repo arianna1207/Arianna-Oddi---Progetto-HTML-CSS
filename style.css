@@ -626,7 +626,7 @@ html::-webkit-scrollbar-track {
         width: 92%;
         padding: 10px;
     }
-    .contact-form button{
+    .contact-form .button{
         font-size: 10px;
         padding: 10px;
     }
@@ -820,7 +820,7 @@ html::-webkit-scrollbar-track {
         font-size: 13px;
         width: 48em;
     }
-    .contact-form button{
+    .contact-form .button{
         font-size: 15px;
         width: 88px;
         height: 66px;
@@ -1011,7 +1011,7 @@ html::-webkit-scrollbar-track {
         font-size: 12px;
         width: 63em;
     }
-    .contact-form button{
+    .contact-form .button{
         font-size: 14px;
         width: 76px;
         height: 55px;
