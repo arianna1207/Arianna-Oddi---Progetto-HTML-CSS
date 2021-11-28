@@ -446,7 +446,7 @@ html::-webkit-scrollbar-track {
 }
 
 /*Mobile Phones*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 470px) {
     nav{
     justify-content:inherit;
     padding-top: 1px;
